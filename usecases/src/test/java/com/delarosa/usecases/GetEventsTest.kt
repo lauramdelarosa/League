@@ -28,7 +28,7 @@ class GetEventsTest {
     }
 
     @Test
-    fun `invoke calls league repository`() {
+    fun `invoke calls event repository`() {
         runBlocking {
             val events = listOf(mockedEvent.copy())
             val team = mockedTeam.copy(id = 1)

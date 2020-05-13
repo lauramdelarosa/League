@@ -13,7 +13,7 @@ class RoomLeagueDataSource(db: PruebaDataBase) : LocalLeagueDataSource {
 
     private val leagueDao = db.leagueDao()
 
-    override suspend fun isComplete(): Boolean =
+    override suspend fun isNotComplete(): Boolean =
         withContext(Dispatchers.IO) { leagueDao.leagueCount() <= 2 }
 
     override suspend fun saveLeague(league: List<League>) {

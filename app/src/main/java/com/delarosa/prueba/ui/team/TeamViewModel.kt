@@ -11,16 +11,16 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 
 class TeamViewModel(
-    private val leagueCode: String,
-   private val getTeams: GetTeams,
+    val leagueCode: String,
+    private val getTeams: GetTeams,
     override val uiDispatcher: CoroutineDispatcher
 ) : ScopedViewModel(uiDispatcher) {
 
-    private val _model = MutableLiveData<UiModel>()
-    val model: LiveData<UiModel> = _model
-
     private val _navigation = MutableLiveData<Event<String>>()
     val navigation: LiveData<Event<String>> = _navigation
+
+    val list: MutableLiveData<List<Team>> = MutableLiveData()
+    val loadingProgressBar: MutableLiveData<Boolean> = MutableLiveData()
 
     init {
         initServiceCall()
@@ -28,24 +28,21 @@ class TeamViewModel(
 
     private fun initServiceCall() {
         launch {
+            loadingProgressBar.value = true
             when (val result = getTeams.invoke(leagueCode)) {
                 is ResultData.Success -> {
-                    _model.value = UiModel.Content(result.data)
+                    list.value = result.data
                 }
                 is ResultData.Error -> {
                     result.exception.toString()
                 }
             }
+            loadingProgressBar.value = false
         }
     }
 
     fun onItemClicked(team: Team) {
         _navigation.value = Event(team.code)
-    }
-
-    sealed class UiModel {
-        object Loading : UiModel()
-        class Content(val teams: List<Team>) : UiModel()
     }
 
     companion object {

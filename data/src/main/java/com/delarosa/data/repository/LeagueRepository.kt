@@ -10,7 +10,7 @@ class LeagueRepository(
     private val localLeagueDataSource: LocalLeagueDataSource
 ) {
     suspend fun getLeague(id: String): ResultData<List<League>> {
-        if (localLeagueDataSource.isComplete()) {
+        if (localLeagueDataSource.isNotComplete()) {
             when (val result = remoteLeagueDataSource.getLeague(id)) {
                 is ResultData.Success -> localLeagueDataSource.saveLeague(result.data)
                 is ResultData.Error -> return result

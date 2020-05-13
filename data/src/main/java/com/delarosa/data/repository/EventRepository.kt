@@ -10,11 +10,12 @@ class EventRepository(
     private val localEventDataSource: LocalEventDataSource
 ) {
     suspend fun getEvents(id: String): ResultData<List<Event>> {
-        when (val result = remoteEventDataSource.getEvents(id)) {
-            is ResultData.Success -> localEventDataSource.saveEvents(result.data)
-            is ResultData.Error -> return result
+        if (localEventDataSource.isEmpty(id)) {
+            when (val result = remoteEventDataSource.getEvents(id)) {
+                is ResultData.Success -> localEventDataSource.saveEvents(result.data)
+                is ResultData.Error -> return result
+            }
         }
-
         return ResultData.Success(localEventDataSource.getEvents())
     }
 }

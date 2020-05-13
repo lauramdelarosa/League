@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.delarosa.data.ResultData
 import com.delarosa.domain.Event
+import com.delarosa.domain.Team
 import com.delarosa.prueba.ui.common.ScopedViewModel
 import com.delarosa.usecases.GetEvents
 import com.delarosa.usecases.GetTeam
@@ -17,14 +18,21 @@ class TeamDetailViewModel(
     override val uiDispatcher: CoroutineDispatcher
 ) : ScopedViewModel(uiDispatcher) {
 
-    private val _model = MutableLiveData<UiModel>()
-    val model: LiveData<UiModel> = _model
+    private val _model = MutableLiveData<String>()
+    val model: LiveData<String> = _model
 
     val nameText: MutableLiveData<String> = MutableLiveData()
     val descriptionText: MutableLiveData<String> = MutableLiveData()
     val foundationYearText: MutableLiveData<String> = MutableLiveData()
     val teamBadgeText: MutableLiveData<String> = MutableLiveData()
+    val upcoming: MutableLiveData<Boolean> = MutableLiveData()
     val teamJerseyText: MutableLiveData<String> = MutableLiveData()
+    val list: MutableLiveData<List<Event>> = MutableLiveData()
+    var youtubeLink = "youtube"
+    var instagramLink = "instagram"
+    var facebookLink = "facebook"
+    var twitterLink = "twitter"
+    var webpageLink = "webpage"
 
     init {
         initServiceCall()
@@ -32,10 +40,11 @@ class TeamDetailViewModel(
 
     private fun initServiceCall() {
         launch {
-            printInfo()
+            printInfo(getTeam.invoke(teamCode))
             when (val result = getEvents.invoke(teamCode)) {
                 is ResultData.Success -> {
-                    _model.value = UiModel.Content(result.data)
+                    list.value = result.data
+                    if (result.data.isNotEmpty()) upcoming.value = true
                 }
                 is ResultData.Error -> {
                     result.exception.toString()
@@ -44,22 +53,25 @@ class TeamDetailViewModel(
         }
     }
 
-    private fun printInfo() = launch {
-        with(getTeam.invoke(teamCode)) {
-            nameText.value = name
-            descriptionText.value = description
-            foundationYearText.value = foundationYear
-            teamBadgeText.value = teamBadge
-            teamJerseyText.value = teamJersey
-        }
+    private fun printInfo(team: Team) = with(team) {
+        nameText.value = name
+        descriptionText.value = description
+        foundationYearText.value = foundationYear
+        teamBadgeText.value = teamBadge
+        teamJerseyText.value = teamJersey
+        youtubeLink = youtube
+        twitterLink = twitter
+        facebookLink = facebook
+        instagramLink = instagram
+        webpageLink = website
     }
 
-    sealed class UiModel {
-        class Content(val event: List<Event>) : UiModel()
-
+    fun redirectSocialMedia(id: String) {
+        _model.value = id
     }
 
     companion object {
         val DETAIL_CODE = "detail_code"
     }
+
 }

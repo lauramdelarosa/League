@@ -1,6 +1,5 @@
 package com.delarosa.usecases
 
-import com.delarosa.data.ResultData
 import com.delarosa.data.repository.TeamRepository
 import com.delarosa.domain.Team
 

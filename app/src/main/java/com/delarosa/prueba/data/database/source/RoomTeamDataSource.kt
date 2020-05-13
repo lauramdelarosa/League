@@ -13,8 +13,8 @@ class RoomTeamDataSource(db: PruebaDataBase) : LocalTeamDataSource {
 
     private val teamDao = db.teamDao()
 
-    override suspend fun isEmpty(): Boolean =
-        withContext(Dispatchers.IO) { teamDao.teamCount() <= 0 }
+    override suspend fun isEmpty(code: String): Boolean =
+        withContext(Dispatchers.IO) { teamDao.teamCount(code) <= 0 }
 
     override suspend fun saveTeams(teams: List<Team>) {
         withContext(Dispatchers.IO) { teamDao.insertTeam(teams.map { it.toRoomTeam() }) }

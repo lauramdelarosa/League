@@ -1,28 +1,25 @@
 package com.delarosa.prueba.ui.league
 
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.delarosa.domain.League
 import com.delarosa.prueba.R
+import com.delarosa.prueba.ui.common.basicDiffUtil
+import com.delarosa.prueba.ui.common.inflate
 import com.delarosa.prueba.ui.common.loadUrl
 import kotlinx.android.synthetic.main.league_item.view.*
 
 class LeagueAdapter(private val listener: (League) -> Unit) :
     RecyclerView.Adapter<LeagueAdapter.ViewHolder>() {
 
-    private var leagueList: MutableList<League> = mutableListOf()
-
-    fun appendItems(newItems: List<League>) {
-        leagueList.clear()
-        leagueList.addAll(newItems)
-        notifyDataSetChanged()
-    }
+    var leagueList: List<League> by basicDiffUtil(
+        emptyList(),
+        areItemsTheSame = { old, new -> old.code == new.code }
+    )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.league_item, parent, false)
+        val view = parent.inflate(R.layout.league_item, false)
         return ViewHolder(view)
     }
 

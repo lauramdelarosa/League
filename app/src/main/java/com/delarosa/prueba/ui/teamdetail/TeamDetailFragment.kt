@@ -7,10 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.delarosa.prueba.databinding.FragmentTeamDetailBinding
+import com.delarosa.prueba.ui.common.startLink
 import com.delarosa.prueba.ui.teamdetail.TeamDetailViewModel.Companion.DETAIL_CODE
-import com.delarosa.prueba.ui.teamdetail.TeamDetailViewModel.UiModel
-import kotlinx.android.synthetic.main.fragment_team_detail.*
-
+import kotlinx.android.synthetic.main.fragment_team.*
 import org.koin.android.scope.currentScope
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
@@ -18,7 +17,7 @@ import org.koin.core.parameter.parametersOf
 class TeamDetailFragment : Fragment() {
 
     private lateinit var adapter: EventsAdapter
-    private val viewModel: TeamDetailViewModel by currentScope.viewModel(this) {
+    private val viewModelDetail: TeamDetailViewModel by currentScope.viewModel(this) {
         parametersOf(arguments?.getString(DETAIL_CODE))
     }
     private lateinit var dataBindingView: FragmentTeamDetailBinding
@@ -27,7 +26,7 @@ class TeamDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
         dataBindingView = FragmentTeamDetailBinding.inflate(inflater, container, false).apply {
-            viewModel = viewModel
+            viewModel = viewModelDetail
         }
         return dataBindingView.root
     }
@@ -41,13 +40,11 @@ class TeamDetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         adapter = EventsAdapter()
         recycler?.adapter = adapter
-        viewModel.model.observe(this, Observer(::updateUi))
+        viewModelDetail.model.observe(this, Observer(::updateUi))
     }
 
-    private fun updateUi(model: UiModel) {
-        when (model) {
-            is UiModel.Content -> adapter.appendItems(model.event)
-        }
+    private fun updateUi(link: String) {
+        activity?.let { it.startLink(link) }
     }
 
 

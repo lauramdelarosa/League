@@ -5,6 +5,7 @@ import com.delarosa.prueba.data.database.entities.Team as RoomTeam
 import com.delarosa.prueba.data.server.endpoints.response.Team as ServerTeam
 
 fun ServerTeam.toDomainLeague(): Team = Team(
+    id = 0,
     code = idTeam,
     idLeague = idLeague,
     name = strTeam,
@@ -21,7 +22,7 @@ fun ServerTeam.toDomainLeague(): Team = Team(
 )
 
 fun Team.toRoomTeam(): RoomTeam = RoomTeam(
-    id = 0,
+    id = id,
     code = code,
     name = name,
     idLeague = idLeague,
@@ -50,6 +51,6 @@ fun RoomTeam.toDomainTeam(): Team = Team(
     teamJersey = teamJersey,
     twitter = twitter,
     website = website,
-    youtube = youtube
-
+    youtube = youtube,
+    id = id
 )

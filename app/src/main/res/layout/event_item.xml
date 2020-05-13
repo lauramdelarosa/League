@@ -19,6 +19,7 @@
 
             <TextView
                 android:id="@+id/home"
+                style="@style/AppTheme.TextAppearanceBold"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
@@ -33,6 +34,7 @@
 
             <TextView
                 android:id="@+id/away"
+                style="@style/AppTheme.TextAppearanceBold"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
@@ -76,8 +78,8 @@
 
             <ImageView
                 android:id="@+id/homeImage"
-                android:layout_width="38dp"
-                android:layout_height="28dp"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
                 app:layout_constraintBottom_toTopOf="@+id/home"
                 app:layout_constraintEnd_toStartOf="@+id/date"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -87,8 +89,8 @@
 
             <ImageView
                 android:id="@+id/awayImage"
-                android:layout_width="37dp"
-                android:layout_height="24dp"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
                 app:layout_constraintBottom_toTopOf="@+id/away"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

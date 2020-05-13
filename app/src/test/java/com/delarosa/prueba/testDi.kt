@@ -1,13 +1,16 @@
 package com.delarosa.prueba
 
+import com.delarosa.data.datasource.LocalTeamDataSource
 import com.delarosa.data.datasource.RemoteTeamDataSource
+import com.delarosa.prueba.datasources.FakeLocalTeamDataSource
+import com.delarosa.prueba.datasources.FakeRemoteTeamDataSource
 import com.delarosa.prueba.di.dataModule
-import com.delarosa.testshared.mockedIceCream
+import com.delarosa.testshared.mockedTeam
 import kotlinx.coroutines.Dispatchers
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
 import org.koin.dsl.module
-/*
+
 
 fun initMockedDi(vararg modules: Module) {
     startKoin {
@@ -16,16 +19,17 @@ fun initMockedDi(vararg modules: Module) {
 }
 
 private val mockedAppModule = module {
-    single<RemoteTeamDataSource> { FakeRemoteDataSource() }
+    single<RemoteTeamDataSource> { FakeRemoteTeamDataSource() }
+    single<LocalTeamDataSource> { FakeLocalTeamDataSource() }
     single { Dispatchers.Unconfined }
 }
 
-val fakeListIceCream = listOf(
-    mockedIceCream.copy(name1="icecream1"),
-    mockedIceCream.copy(name1="icecream2"),
-    mockedIceCream.copy(name1="icecream3"),
-    mockedIceCream.copy(name1="icecream4")
+val fakeTeamList = listOf(
+    mockedTeam.copy(name = "Team2"),
+    mockedTeam.copy(name = "Team3"),
+    mockedTeam.copy(name = "Team4"),
+    mockedTeam.copy(name = "Team5")
 )
-*/
+
 
 

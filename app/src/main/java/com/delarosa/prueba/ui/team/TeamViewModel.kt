@@ -11,7 +11,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 
 class TeamViewModel(
-    private val leagueCode: String,
+    val leagueCode: String,
     private val getTeams: GetTeams,
     override val uiDispatcher: CoroutineDispatcher
 ) : ScopedViewModel(uiDispatcher) {

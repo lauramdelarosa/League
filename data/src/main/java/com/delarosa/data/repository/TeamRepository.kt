@@ -10,9 +10,11 @@ class TeamRepository(
     private val localTeamDataSource: LocalTeamDataSource
 ) {
     suspend fun getTeams(id: String): ResultData<List<Team>> {
-        when (val result = remoteTeamDataSource.getTeams(id)) {
-            is ResultData.Success -> localTeamDataSource.saveTeams(result.data)
-            is ResultData.Error -> return result
+        if (localTeamDataSource.isEmpty(id)) {
+            when (val result = remoteTeamDataSource.getTeams(id)) {
+                is ResultData.Success -> localTeamDataSource.saveTeams(result.data)
+                is ResultData.Error -> return result
+            }
         }
         return ResultData.Success(localTeamDataSource.getTeams(id))
     }

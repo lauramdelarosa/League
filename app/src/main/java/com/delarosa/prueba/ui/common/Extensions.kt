@@ -1,6 +1,9 @@
 package com.delarosa.prueba.ui.common
 
+import android.app.Activity
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +13,9 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.delarosa.domain.Event
 import com.delarosa.prueba.app.App
+import com.delarosa.prueba.ui.teamdetail.EventsAdapter
 import kotlin.properties.Delegates
 
 val Context.app: App
@@ -45,4 +50,17 @@ inline fun <VH : RecyclerView.ViewHolder, T> RecyclerView.Adapter<VH>.basicDiffU
 @BindingAdapter("url")
 fun ImageView.bindUrl(url: String?) {
     if (url != null) loadUrl(url)
+}
+
+@BindingAdapter("items")
+fun RecyclerView.setItems(events: List<Event>?) {
+    (adapter as? EventsAdapter)?.let {
+        it.list = events ?: emptyList()
+    }
+}
+
+fun Activity.startLink(link: String) {
+    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://$link"))
+    intent.apply { addFlags(Intent.FLAG_ACTIVITY_NEW_TASK) }
+    startActivity(intent)
 }

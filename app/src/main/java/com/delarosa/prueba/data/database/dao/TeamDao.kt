@@ -12,8 +12,8 @@ interface TeamDao {
     @Query("SELECT * FROM Team WHERE code = :code")
     fun findById(code: String): Team
 
-    @Query("SELECT COUNT(id) FROM Team")
-    fun teamCount(): Int
+    @Query("SELECT COUNT(id) FROM Team WHERE idLeague = :code")
+    fun teamCount(code: String): Int
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insertTeam(teams: List<Team>)

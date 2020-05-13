@@ -1,0 +1,28 @@
+package com.delarosa.prueba.data.database.source
+
+
+import com.delarosa.data.datasource.LocalEventDataSource
+import com.delarosa.domain.Event
+import com.delarosa.prueba.data.database.PruebaDataBase
+import com.delarosa.prueba.data.mappers.toDomainEvent
+import com.delarosa.prueba.data.mappers.toRoomEvent
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+class RoomEventDataSource(db: PruebaDataBase) : LocalEventDataSource {
+
+    private val eventDao = db.eventDao()
+
+    override suspend fun isEmpty(): Boolean =
+        withContext(Dispatchers.IO) { eventDao.eventCount() <= 0 }
+
+    override suspend fun saveEvents(events: List<Event>) {
+        withContext(Dispatchers.IO) { eventDao.insertEvents(events.map { it.toRoomEvent() }) }
+    }
+
+    override suspend fun getEvents(): List<Event> =
+        withContext(Dispatchers.IO) {
+            eventDao.getAll().map { it.toDomainEvent() }
+        }
+
+}

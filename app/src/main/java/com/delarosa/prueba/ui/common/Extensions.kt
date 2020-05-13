@@ -9,13 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.annotation.LayoutRes
-import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.delarosa.domain.Event
 import com.delarosa.prueba.app.App
-import com.delarosa.prueba.ui.teamdetail.EventsAdapter
 import kotlin.properties.Delegates
 
 val Context.app: App
@@ -46,18 +43,6 @@ inline fun <VH : RecyclerView.ViewHolder, T> RecyclerView.Adapter<VH>.basicDiffU
             override fun getNewListSize(): Int = new.size
         }).dispatchUpdatesTo(this@basicDiffUtil)
     }
-
-@BindingAdapter("url")
-fun ImageView.bindUrl(url: String?) {
-    if (url != null) loadUrl(url)
-}
-
-@BindingAdapter("items")
-fun RecyclerView.setItems(events: List<Event>?) {
-    (adapter as? EventsAdapter)?.let {
-        it.list = events ?: emptyList()
-    }
-}
 
 fun Activity.startLink(link: String) {
     val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://$link"))

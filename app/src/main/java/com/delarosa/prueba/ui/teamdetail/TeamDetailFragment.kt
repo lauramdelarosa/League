@@ -9,12 +9,14 @@ import androidx.lifecycle.Observer
 import com.delarosa.prueba.databinding.FragmentTeamDetailBinding
 import com.delarosa.prueba.ui.common.startLink
 import com.delarosa.prueba.ui.teamdetail.TeamDetailViewModel.Companion.DETAIL_CODE
+import kotlinx.android.synthetic.main.fragment_team.*
 import org.koin.android.scope.currentScope
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
 
 class TeamDetailFragment : Fragment() {
 
+    private lateinit var adapter: EventsAdapter
     private val viewModelDetail: TeamDetailViewModel by currentScope.viewModel(this) {
         parametersOf(arguments?.getString(DETAIL_CODE))
     }
@@ -36,6 +38,8 @@ class TeamDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        adapter = EventsAdapter()
+        recycler?.adapter = adapter
         viewModelDetail.model.observe(this, Observer(::updateUi))
     }
 

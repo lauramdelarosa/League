@@ -15,11 +15,12 @@ class LeagueViewModel(
     override val uiDispatcher: CoroutineDispatcher
 ) : ScopedViewModel(uiDispatcher) {
 
-    private val _model = MutableLiveData<UiModel>()
-    val model: LiveData<UiModel> = _model
-
     private val _navigation = MutableLiveData<Event<String>>()
     val navigation: LiveData<Event<String>> = _navigation
+
+    val list: MutableLiveData<List<League>> = MutableLiveData()
+    val loadingProgressBar: MutableLiveData<Boolean> = MutableLiveData()
+
 
     init {
         initScope()
@@ -28,15 +29,16 @@ class LeagueViewModel(
 
     private fun initServiceCall() {
         launch {
-
+            loadingProgressBar.value = true
             when (val result =  getLeagues.invoke()) {
                 is ResultData.Success -> {
-                    _model.value = UiModel.Content(result.data)
+                    list.value = result.data
                 }
                 is ResultData.Error -> {
                     result.exception.toString()
                 }
             }
+            loadingProgressBar.value = false
         }
     }
 
@@ -47,10 +49,5 @@ class LeagueViewModel(
     override fun onCleared() {
         destroyScope()
         super.onCleared()
-    }
-
-    sealed class UiModel {
-        object Loading : UiModel()
-        class Content(val leagueList: List<League>) : UiModel()
     }
 }

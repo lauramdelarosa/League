@@ -25,6 +25,7 @@ class TeamDetailViewModel(
     val descriptionText: MutableLiveData<String> = MutableLiveData()
     val foundationYearText: MutableLiveData<String> = MutableLiveData()
     val teamBadgeText: MutableLiveData<String> = MutableLiveData()
+    val upcoming: MutableLiveData<Boolean> = MutableLiveData()
     val teamJerseyText: MutableLiveData<String> = MutableLiveData()
     val list: MutableLiveData<List<Event>> = MutableLiveData()
     var youtubeLink = "youtube"
@@ -43,6 +44,7 @@ class TeamDetailViewModel(
             when (val result = getEvents.invoke(teamCode)) {
                 is ResultData.Success -> {
                     list.value = result.data
+                    if (result.data.isNotEmpty()) upcoming.value = true
                 }
                 is ResultData.Error -> {
                     result.exception.toString()

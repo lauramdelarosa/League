@@ -8,7 +8,6 @@ data class Event(
     @PrimaryKey(autoGenerate = true) val id: Int,
     val homeText: String,
     val awayText: String,
-    val homeImage: String,
-    val awayImage: String,
-    val date: String
+    val date: String,
+    val idTeam: String
 )

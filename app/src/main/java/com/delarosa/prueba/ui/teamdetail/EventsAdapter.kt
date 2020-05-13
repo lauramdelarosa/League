@@ -5,10 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.delarosa.domain.Event
-import com.delarosa.domain.League
 import com.delarosa.prueba.R
 import com.delarosa.prueba.ui.common.basicDiffUtil
-import com.delarosa.prueba.ui.common.loadUrl
 import kotlinx.android.synthetic.main.event_item.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -38,8 +36,6 @@ class EventsAdapter :
         fun bind(event: Event) {
             itemView.home.text = event.homeText
             itemView.away.text = event.awayText
-            itemView.homeImage.loadUrl(event.homeImage)
-            itemView.awayImage.loadUrl(event.awayImage)
             val simpleFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
             val date = simpleFormat.parse(event.date)
             simpleFormat.applyPattern("dd MMMM yyyy")

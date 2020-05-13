@@ -30,7 +30,7 @@ class LeagueViewModel(
     private fun initServiceCall() {
         launch {
             loadingProgressBar.value = true
-            when (val result =  getLeagues.invoke()) {
+            when (val result = getLeagues.invoke()) {
                 is ResultData.Success -> {
                     list.value = result.data
                 }

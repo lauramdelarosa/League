@@ -48,7 +48,7 @@ class TeamFragment : Fragment() {
     private fun updateUi(model: UiModel) {
         progress?.visibility = if (model is UiModel.Loading) View.VISIBLE else View.GONE
         when (model) {
-            is UiModel.Content -> adapter.appendItems(model.teams)
+            is UiModel.Content -> adapter.teamList = model.teams
         }
     }
 

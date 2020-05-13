@@ -46,7 +46,7 @@ class TeamDetailFragment : Fragment() {
 
     private fun updateUi(model: UiModel) {
         when (model) {
-            is UiModel.Content -> adapter.appendItems(model.event)
+            is UiModel.Content -> adapter.list = model.event
         }
     }
 

@@ -1,6 +1,7 @@
 package com.delarosa.domain
 
 data class Team(
+    val id: Int,
     val code: String,
     val idLeague: String,
     val name: String,

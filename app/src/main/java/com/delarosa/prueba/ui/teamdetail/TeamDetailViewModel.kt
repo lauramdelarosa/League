@@ -46,11 +46,11 @@ class TeamDetailViewModel(
 
     private fun printInfo() = launch {
         with(getTeam.invoke(teamCode)) {
-            nameText.value = name
+            /*nameText.value = name
             descriptionText.value = description
             foundationYearText.value = foundationYear
             teamBadgeText.value = teamBadge
-            teamJerseyText.value = teamJersey
+            teamJerseyText.value = teamJersey*/
         }
     }
 

@@ -5,8 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:layout_margin="@dimen/_4sdp"
-    android:background="@drawable/stroke_border_item"
->
+    android:background="@drawable/stroke_border_item">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -47,12 +46,13 @@
 
             <TextView
                 android:id="@+id/tittle"
+                style="@style/AppTheme.TextAppearanceBold"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
                 android:gravity="center"
-                android:lines="2"
+                android:maxLines="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
                 android:textColor="@color/colorWhite"
                 android:textStyle="bold"
@@ -60,16 +60,18 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/view"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
 
             <TextView
                 android:id="@+id/country"
+                style="@style/AppTheme.TextAppearance"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:lines="2"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
                 android:gravity="center"
+                android:maxLines="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
                 android:textColor="@color/colorWhite"
                 app:layout_constraintBottom_toBottomOf="parent"

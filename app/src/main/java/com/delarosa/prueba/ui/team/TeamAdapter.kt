@@ -6,23 +6,21 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.delarosa.domain.Team
 import com.delarosa.prueba.R
+import com.delarosa.prueba.ui.common.basicDiffUtil
+import com.delarosa.prueba.ui.common.inflate
 import com.delarosa.prueba.ui.common.loadUrl
 import kotlinx.android.synthetic.main.team_item.view.*
 
 class TeamAdapter(private val listener: (Team) -> Unit) :
     RecyclerView.Adapter<TeamAdapter.ViewHolder>() {
 
-    private var teamList: MutableList<Team> = mutableListOf()
-
-    fun appendItems(newItems: List<Team>) {
-        teamList.clear()
-        teamList.addAll(newItems)
-        notifyDataSetChanged()
-    }
+    var teamList: List<Team> by basicDiffUtil(
+        emptyList(),
+        areItemsTheSame = { old, new -> old.code == new.code }
+    )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.team_item, parent, false)
+        val view = parent.inflate(R.layout.team_item, false)
         return ViewHolder(view)
     }
 

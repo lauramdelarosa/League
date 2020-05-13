@@ -12,7 +12,7 @@ fun ServerLeague.toDomainLeague(): League = League(
 )
 
 fun League.toRoomLeague(): RoomLeague = RoomLeague(
-    id = 0, image = image, country = country, code = code.toString(), title = name
+    id = 0, image = image, country = country, code = code, title = name
 )
 
 fun RoomLeague.toDomainLeague() = League(

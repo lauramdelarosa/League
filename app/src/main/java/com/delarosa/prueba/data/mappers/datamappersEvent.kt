@@ -5,6 +5,7 @@ import com.delarosa.prueba.data.database.entities.Event as RoomEvent
 import com.delarosa.prueba.data.server.response.Event as ServerEvent
 
 fun ServerEvent.toDomainEvent(): Event = Event(
+    id = 0,
     homeImage = idHomeTeam,
     awayImage = idAwayTeam,
     homeText = strHomeTeam,
@@ -13,7 +14,7 @@ fun ServerEvent.toDomainEvent(): Event = Event(
 )
 
 fun Event.toRoomEvent(): RoomEvent = RoomEvent(
-    id = 0,
+    id = id,
     homeText = homeText,
     awayText = awayText,
     awayImage = awayImage,
@@ -22,6 +23,7 @@ fun Event.toRoomEvent(): RoomEvent = RoomEvent(
 )
 
 fun RoomEvent.toDomainEvent(): Event = Event(
+    id = id,
     homeText = homeText,
     awayText = awayText,
     awayImage = awayImage,

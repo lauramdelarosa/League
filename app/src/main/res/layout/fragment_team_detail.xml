@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:title="@{viewModel.nameText}"
-                    tools:title=" name" />
+                    tools:title="name" />
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -52,7 +52,7 @@
             android:id="@+id/nested"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
+            android:background="@color/colorDark"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <LinearLayout
@@ -92,7 +92,7 @@
                     android:text="@{viewModel.foundationYearText}"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/colorGrayDark"
-                    tools:text="Type - 5 Rooms" />
+                  />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler"
@@ -131,7 +131,7 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Precio" />
+                 />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

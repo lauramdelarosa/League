@@ -14,30 +14,25 @@ import org.mockito.Mock
 import org.mockito.junit.MockitoJUnitRunner
 
 @RunWith(MockitoJUnitRunner::class)
-class GetTeamsTest {
+class GetTeamTest {
 
     @Mock
     lateinit var teamRepository: TeamRepository
 
-    lateinit var getTeams: GetTeams
+    lateinit var getTeam: GetTeam
 
 
     @Before
     fun setUp() {
-        getTeams = GetTeams(teamRepository)
+        getTeam = GetTeam(teamRepository)
     }
 
     @Test
     fun `invoke calls team repository`() {
         runBlocking {
-            val team = listOf(mockedTeam.copy())
-            val league = mockedLeague
-            whenever(teamRepository.getTeams(league.code)).thenReturn(ResultData.Success(team))
-            when (val result = getTeams.invoke(league.code)) {
-                is ResultData.Success -> {
-                    Assert.assertEquals(team, result.data)
-                }
-            }
+            val team = mockedTeam.copy()
+            whenever(teamRepository.findById(team.code)).thenReturn(team)
+            Assert.assertEquals(team, getTeam.invoke(team.code))
         }
     }
 }

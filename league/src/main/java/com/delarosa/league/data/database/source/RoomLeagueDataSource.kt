@@ -4,7 +4,6 @@ package com.delarosa.league.data.database.source
 import com.delarosa.data.datasource.LocalLeagueDataSource
 import com.delarosa.domain.League
 import com.delarosa.league.data.database.PruebaDataBase
-import com.delarosa.league.data.mappers.toDomainLeague
 import com.delarosa.league.data.mappers.toRoomLeague
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

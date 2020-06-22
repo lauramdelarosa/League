@@ -9,18 +9,4 @@
     </style>
     <style name="AppTheme.DarkOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <!--text-->
-    <style name="AppTheme.TextAppearance">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
-        <item name="fontFamily">@font/montserrat_medium</item>
-        <item name="android:textSize">@dimen/text_base</item>
-        <item name="android:textColor">@color/colorPrimary</item>
-    </style>
-
-    <style name="AppTheme.TextAppearanceBold">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
-        <item name="fontFamily">@font/montserrat_bold</item>
-        <item name="android:textSize">@dimen/text_base</item>
-        <item name="android:textColor">@color/colorPrimary</item>
-    </style>
 </resources>

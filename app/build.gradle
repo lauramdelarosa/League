@@ -29,6 +29,7 @@ dependencies {
     implementation project(":team")
     implementation project(":common")
     implementation project(":teamdetail")
+    implementation project(":splash")
 }
 repositories {
     mavenCentral()

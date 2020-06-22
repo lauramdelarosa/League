@@ -1,11 +1,13 @@
 package com.delarosa.prueba.ui.splash
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
+import androidx.navigation.findNavController
+import com.delarosa.common.common.utils.navigateUriWithDefaultOptions
 import com.delarosa.prueba.R
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
@@ -24,7 +26,9 @@ class SplashFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         GlobalScope.launch {
             delay(2000)
-            findNavController().navigate(R.id.action_splash_to_league, null)
+            view.findNavController().navigateUriWithDefaultOptions(
+                Uri.parse("delarosa://leagues")
+            )
         }
     }
 }

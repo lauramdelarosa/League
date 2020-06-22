@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_choose_a_league">Bienvenido, elige una liga </string>
+    <string name="choose_team">Elige un equipo</string>
+    <string name="upcoming_events">Próximos eventos</string>
+</resources>

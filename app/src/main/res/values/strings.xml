@@ -4,4 +4,5 @@
     <string name="choose_team">Choose a team</string>
     <string name="vs" translatable="false">VS</string>
     <string name="upcoming_events">Upcoming events</string>
+    <string name="title_prueba">prueba</string>
 </resources>

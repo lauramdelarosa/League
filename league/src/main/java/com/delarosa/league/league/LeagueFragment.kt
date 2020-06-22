@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.delarosa.common.common.utils.navigateUriWithDefaultOptions
 import com.delarosa.league.R
@@ -43,11 +42,9 @@ class LeagueFragment : Fragment() {
         recycler?.adapter = adapter
         viewModelLeague.navigation.observe(this, Observer { event ->
             event.getContentIfNotHandled()?.let {
-
                 findNavController().navigateUriWithDefaultOptions(
                     Uri.parse("delarosa://team/${it}")
                 )
-
             }
         })
     }

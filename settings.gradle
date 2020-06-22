@@ -1,7 +1,7 @@
-include ':teamdetail'
 include ':team'
 include ':common'
 include ':league'
+include ':teamdetail'
 rootProject.name='Prueba'
 include ':app'
 include ':data'

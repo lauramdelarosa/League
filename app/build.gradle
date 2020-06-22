@@ -25,11 +25,10 @@ android {
 
 }
 dependencies {
-
     implementation project(":league")
     implementation project(":team")
-    implementation project(":teamdetail")
     implementation project(":common")
+   // implementation project(":teamdetail")
 }
 repositories {
     mavenCentral()

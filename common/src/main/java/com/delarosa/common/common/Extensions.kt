@@ -46,3 +46,5 @@ fun Activity.startLink(link: String) {
     intent.apply { addFlags(Intent.FLAG_ACTIVITY_NEW_TASK) }
     startActivity(intent)
 }
+
+

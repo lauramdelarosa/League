@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.delarosa.prueba"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:7:5-21:19
+14        android:name="com.delarosa.prueba.app.App"
+14-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:8:9-32
+15        android:allowBackup="true"
+15-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher"
+20-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:12:9-48
+21        android:supportsRtl="true"
+21-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:14:9-40
+24        <activity android:name="com.delarosa.prueba.ui.MainActivity" >
+24-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:15:9-20:20
+24-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:15:19-50
+25            <intent-filter>
+25-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:16:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:18:17-77
+28-->/Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->[com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+32            android:name="com.karumi.dexter.DexterActivity"
+32-->[com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+33            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+33-->[com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+34        <activity
+34-->[com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+35            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+35-->[com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+36            android:exported="false"
+36-->[com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->[com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+38
+39        <meta-data
+39-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+40            android:name="com.google.android.gms.version"
+40-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+41            android:value="@integer/google_play_services_version" />
+41-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+45            android:authorities="com.delarosa.prueba.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>

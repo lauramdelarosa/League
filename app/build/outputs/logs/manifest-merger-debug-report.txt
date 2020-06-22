@@ -1,0 +1,348 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [:league] /Users/lauradelarosa/Desktop/android/Leagues/league/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:team] /Users/lauradelarosa/Desktop/android/Leagues/team/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:teamdetail] /Users/lauradelarosa/Desktop/android/Leagues/teamdetail/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:common] /Users/lauradelarosa/Desktop/android/Leagues/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ad143e93c607b9be17d5e79e931371c8/databinding-adapters-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/de9928d2d13ba970633ab1d6cc39f8e4/databinding-runtime-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d29bfef0ba917d5fa9a6bc036284b701/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6720f07fac283fadc8fc68f96f6a5028/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/82e6f210782e36b4b8ff138c273226d3/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/69a896dd67ab2dc09ea3bc2b26dce091/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/5c4998c2ff2b64b23058a72da5df683b/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bd9eaa2992ad422b7eac643b0aac27f7/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8c430725184f2a77ad2f1eec85b26fd5/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/85fa2711bb2ad134a23924a267c31046/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e3eae57dad7cafaca88631773e3c5a7/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0a6ec830a25818f0c65614689b510210/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/dd27875d818a27730adfecc818bb9c25/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/4f74edf9ab0c0bf7b6caaeb06df6a1df/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e857d9d2440f5575d09cae6bcacb55c7/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/143f1cb4683e7e321e2214200dc2a1af/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/05faf31684ba0c4b51a76fa495a4aaa2/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/794c9fc69360f0aebbce666b47687980/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/be5712fb0729a37ddbd4ef659c7b3b9d/jetified-activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a31ca4a5ac575b9a00f51a7e038183cf/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ab88efe202b227cde3ee92a0b889e43a/jetified-viewbinding-3.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8621b9ef965027de26d88f9e57274027/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a54f118c136f1369197dbff96f694e38/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e4ebd0123d8886f2b3c7ca1ca9661f48/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/035f3ead55434a936fac43666c47076e/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a814bd133b4039435948c0667ee48966/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/80ab11731f015223616277d743ce584c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/9eea074cf652341d7c423b14c7cccd8e/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d13c4fc8880d4c3f310ab3255d921676/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/f65d04a2562ed7058bccea557754c28a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/63eb00b0bf61ca493168a066cb8498da/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/efaec84b5e6af1bfaa1359b2ae31f050/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/154fa3fe4ee97670eb2eec42614a9996/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6151e126586f4a83f38912a51e2a7b82/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6f4cd621519e3e202420d4703573fbf0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/65a54277910d0fe1727441ce8390724a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/fd1465be54204eb4f96594d66ca627f6/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/223164d984eb07f0c5b83727b8e85906/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e09806fedcaf73ee0e22595e708735dc/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/409924cd016c6c5d22217b64333b2716/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8f6f53577df462b883a0f29071a5c359/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/076509ea823f92f28b640103c79c35d5/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c544a6ef9c6f9475d955243d4578b42e/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/caba6aa54e6629d1c9cef174497f7920/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c965021fc210eb4f15a82ce405836360/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bc3d08ee1c4710b4b0c8f772d2326f42/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2b5a4cd18c0e85677b51f808520e4d53/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [org.koin:koin-android:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e0fcdab2c35037d604300251f1045fe/jetified-koin-android-2.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a8b5f2f918ccd5b61b38ba8ba7a0ef9d/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c41f4d7d1808da617e5e314fd8bb4ba7/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e89b9b3835813663710aba89c3243ccc/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bbeb49b76f836840afd2c7da05a4a8b8/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8fb84686ddcc564983df753d3c52ba17/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/61045485808293e5346b591a420d3959/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/73e1622e0283f301bc23a23ce077ad8e/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e71afdf65768d76835eada2fdfa8425b/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/43644fd3c43903f1a75362fd7017770c/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e828ff81fc92bbbc47dba7b9770c3a10/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/b438d021203b1b2cd4bf7ee7b187a00e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0c4a303e4845c1d71d38de564f7d7815/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/490bc29f7bf8bb8ad4dea60f819b0f75/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e968a761718dd842e4b2f47e5238a64b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/82e6f210782e36b4b8ff138c273226d3/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/82e6f210782e36b4b8ff138c273226d3/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/69a896dd67ab2dc09ea3bc2b26dce091/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/69a896dd67ab2dc09ea3bc2b26dce091/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/5c4998c2ff2b64b23058a72da5df683b/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/5c4998c2ff2b64b23058a72da5df683b/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/85fa2711bb2ad134a23924a267c31046/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/85fa2711bb2ad134a23924a267c31046/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0a6ec830a25818f0c65614689b510210/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0a6ec830a25818f0c65614689b510210/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/dd27875d818a27730adfecc818bb9c25/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/dd27875d818a27730adfecc818bb9c25/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e857d9d2440f5575d09cae6bcacb55c7/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e857d9d2440f5575d09cae6bcacb55c7/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8621b9ef965027de26d88f9e57274027/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8621b9ef965027de26d88f9e57274027/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a54f118c136f1369197dbff96f694e38/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a54f118c136f1369197dbff96f694e38/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2b5a4cd18c0e85677b51f808520e4d53/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2b5a4cd18c0e85677b51f808520e4d53/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e828ff81fc92bbbc47dba7b9770c3a10/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e828ff81fc92bbbc47dba7b9770c3a10/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:12:9-48
+	android:icon
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:8:9-32
+activity#com.delarosa.prueba.ui.MainActivity
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:15:9-20:20
+	android:name
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:15:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+MERGED from [:league] /Users/lauradelarosa/Desktop/android/Leagues/league/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:league] /Users/lauradelarosa/Desktop/android/Leagues/league/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:team] /Users/lauradelarosa/Desktop/android/Leagues/team/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:team] /Users/lauradelarosa/Desktop/android/Leagues/team/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:teamdetail] /Users/lauradelarosa/Desktop/android/Leagues/teamdetail/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:teamdetail] /Users/lauradelarosa/Desktop/android/Leagues/teamdetail/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:common] /Users/lauradelarosa/Desktop/android/Leagues/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:common] /Users/lauradelarosa/Desktop/android/Leagues/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ad143e93c607b9be17d5e79e931371c8/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ad143e93c607b9be17d5e79e931371c8/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/de9928d2d13ba970633ab1d6cc39f8e4/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/de9928d2d13ba970633ab1d6cc39f8e4/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d29bfef0ba917d5fa9a6bc036284b701/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d29bfef0ba917d5fa9a6bc036284b701/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6720f07fac283fadc8fc68f96f6a5028/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6720f07fac283fadc8fc68f96f6a5028/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/82e6f210782e36b4b8ff138c273226d3/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/82e6f210782e36b4b8ff138c273226d3/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/69a896dd67ab2dc09ea3bc2b26dce091/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/69a896dd67ab2dc09ea3bc2b26dce091/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/5c4998c2ff2b64b23058a72da5df683b/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/5c4998c2ff2b64b23058a72da5df683b/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bd9eaa2992ad422b7eac643b0aac27f7/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bd9eaa2992ad422b7eac643b0aac27f7/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8c430725184f2a77ad2f1eec85b26fd5/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8c430725184f2a77ad2f1eec85b26fd5/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/85fa2711bb2ad134a23924a267c31046/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/85fa2711bb2ad134a23924a267c31046/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e3eae57dad7cafaca88631773e3c5a7/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e3eae57dad7cafaca88631773e3c5a7/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0a6ec830a25818f0c65614689b510210/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0a6ec830a25818f0c65614689b510210/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/dd27875d818a27730adfecc818bb9c25/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/dd27875d818a27730adfecc818bb9c25/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/4f74edf9ab0c0bf7b6caaeb06df6a1df/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/4f74edf9ab0c0bf7b6caaeb06df6a1df/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e857d9d2440f5575d09cae6bcacb55c7/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e857d9d2440f5575d09cae6bcacb55c7/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/143f1cb4683e7e321e2214200dc2a1af/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/143f1cb4683e7e321e2214200dc2a1af/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/05faf31684ba0c4b51a76fa495a4aaa2/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/05faf31684ba0c4b51a76fa495a4aaa2/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/794c9fc69360f0aebbce666b47687980/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/794c9fc69360f0aebbce666b47687980/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/be5712fb0729a37ddbd4ef659c7b3b9d/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/be5712fb0729a37ddbd4ef659c7b3b9d/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a31ca4a5ac575b9a00f51a7e038183cf/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a31ca4a5ac575b9a00f51a7e038183cf/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ab88efe202b227cde3ee92a0b889e43a/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/ab88efe202b227cde3ee92a0b889e43a/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8621b9ef965027de26d88f9e57274027/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8621b9ef965027de26d88f9e57274027/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a54f118c136f1369197dbff96f694e38/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a54f118c136f1369197dbff96f694e38/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e4ebd0123d8886f2b3c7ca1ca9661f48/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e4ebd0123d8886f2b3c7ca1ca9661f48/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/035f3ead55434a936fac43666c47076e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/035f3ead55434a936fac43666c47076e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a814bd133b4039435948c0667ee48966/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a814bd133b4039435948c0667ee48966/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/80ab11731f015223616277d743ce584c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/80ab11731f015223616277d743ce584c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/9eea074cf652341d7c423b14c7cccd8e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/9eea074cf652341d7c423b14c7cccd8e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d13c4fc8880d4c3f310ab3255d921676/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d13c4fc8880d4c3f310ab3255d921676/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/f65d04a2562ed7058bccea557754c28a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/f65d04a2562ed7058bccea557754c28a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/63eb00b0bf61ca493168a066cb8498da/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/63eb00b0bf61ca493168a066cb8498da/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/efaec84b5e6af1bfaa1359b2ae31f050/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/efaec84b5e6af1bfaa1359b2ae31f050/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/154fa3fe4ee97670eb2eec42614a9996/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/154fa3fe4ee97670eb2eec42614a9996/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6151e126586f4a83f38912a51e2a7b82/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6151e126586f4a83f38912a51e2a7b82/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6f4cd621519e3e202420d4703573fbf0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/6f4cd621519e3e202420d4703573fbf0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/65a54277910d0fe1727441ce8390724a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/65a54277910d0fe1727441ce8390724a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/fd1465be54204eb4f96594d66ca627f6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/fd1465be54204eb4f96594d66ca627f6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/223164d984eb07f0c5b83727b8e85906/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/223164d984eb07f0c5b83727b8e85906/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e09806fedcaf73ee0e22595e708735dc/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e09806fedcaf73ee0e22595e708735dc/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/409924cd016c6c5d22217b64333b2716/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/409924cd016c6c5d22217b64333b2716/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8f6f53577df462b883a0f29071a5c359/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8f6f53577df462b883a0f29071a5c359/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/076509ea823f92f28b640103c79c35d5/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/076509ea823f92f28b640103c79c35d5/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c544a6ef9c6f9475d955243d4578b42e/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c544a6ef9c6f9475d955243d4578b42e/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/caba6aa54e6629d1c9cef174497f7920/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/caba6aa54e6629d1c9cef174497f7920/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cf83f438fd751d9ff271198248ec750b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c965021fc210eb4f15a82ce405836360/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c965021fc210eb4f15a82ce405836360/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bc3d08ee1c4710b4b0c8f772d2326f42/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bc3d08ee1c4710b4b0c8f772d2326f42/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2b5a4cd18c0e85677b51f808520e4d53/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2b5a4cd18c0e85677b51f808520e4d53/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.koin:koin-android:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e0fcdab2c35037d604300251f1045fe/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/7e0fcdab2c35037d604300251f1045fe/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a8b5f2f918ccd5b61b38ba8ba7a0ef9d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/a8b5f2f918ccd5b61b38ba8ba7a0ef9d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c41f4d7d1808da617e5e314fd8bb4ba7/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/c41f4d7d1808da617e5e314fd8bb4ba7/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e89b9b3835813663710aba89c3243ccc/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e89b9b3835813663710aba89c3243ccc/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bbeb49b76f836840afd2c7da05a4a8b8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/bbeb49b76f836840afd2c7da05a4a8b8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8fb84686ddcc564983df753d3c52ba17/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/8fb84686ddcc564983df753d3c52ba17/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/61045485808293e5346b591a420d3959/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/61045485808293e5346b591a420d3959/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/73e1622e0283f301bc23a23ce077ad8e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/73e1622e0283f301bc23a23ce077ad8e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e71afdf65768d76835eada2fdfa8425b/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e71afdf65768d76835eada2fdfa8425b/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/43644fd3c43903f1a75362fd7017770c/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/43644fd3c43903f1a75362fd7017770c/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e828ff81fc92bbbc47dba7b9770c3a10/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e828ff81fc92bbbc47dba7b9770c3a10/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/b438d021203b1b2cd4bf7ee7b187a00e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/b438d021203b1b2cd4bf7ee7b187a00e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0c4a303e4845c1d71d38de564f7d7815/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/0c4a303e4845c1d71d38de564f7d7815/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/490bc29f7bf8bb8ad4dea60f819b0f75/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/490bc29f7bf8bb8ad4dea60f819b0f75/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e968a761718dd842e4b2f47e5238a64b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/e968a761718dd842e4b2f47e5238a64b/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lauradelarosa/Desktop/android/Leagues/app/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/2ccdf34aa5905deca57f275e7385ee2f/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/d39ec00c07e9cc900cbdf184774bcb6f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/862cde625aad1fbef0a39de3e07c14e3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/lauradelarosa/.gradle/caches/transforms-2/files-2.1/cadd0183903727f145c4a767897d06ac/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

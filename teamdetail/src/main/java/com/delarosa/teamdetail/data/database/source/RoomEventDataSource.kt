@@ -4,6 +4,7 @@ package com.delarosa.teamdetail.data.database.source
 import com.delarosa.data.datasource.LocalEventDataSource
 import com.delarosa.domain.Event
 import com.delarosa.teamdetail.data.database.PruebaDataBase
+import com.delarosa.teamdetail.data.mappers.toDomainEvent
 import com.delarosa.teamdetail.data.mappers.toRoomEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

@@ -1,17 +1,17 @@
-package com.delarosa.prueba.di
+package com.delarosa.teamdetail.di
 
 import android.app.Application
 import com.delarosa.common.BuildConfig
+import com.delarosa.common.common.RetrofitBuild
 import com.delarosa.data.datasource.*
 import com.delarosa.data.repository.EventRepository
 import com.delarosa.data.repository.LeagueRepository
 import com.delarosa.data.repository.TeamRepository
+import com.delarosa.teamdetail.data.database.PruebaDataBase
+import com.delarosa.teamdetail.data.database.source.RoomEventDataSource
+import com.delarosa.teamdetail.data.server.endpoints.EventService
+import com.delarosa.teamdetail.data.server.source.RemoteEventDataSourceImpl
 
-import com.delarosa.prueba.data.RetrofitBuild
-import com.delarosa.prueba.data.database.PruebaDataBase
-import com.delarosa.prueba.data.database.source.RoomEventDataSource
-import com.delarosa.prueba.data.server.endpoints.EventService
-import com.delarosa.prueba.data.server.source.RemoteEventDataSourceImpl
 
 import com.delarosa.teamdetail.teamdetail.TeamDetailFragment
 import com.delarosa.teamdetail.teamdetail.TeamDetailViewModel

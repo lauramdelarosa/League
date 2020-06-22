@@ -28,7 +28,7 @@ dependencies {
     implementation project(":league")
     implementation project(":team")
     implementation project(":common")
-   // implementation project(":teamdetail")
+    implementation project(":teamdetail")
 }
 repositories {
     mavenCentral()

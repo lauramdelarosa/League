@@ -3,9 +3,9 @@ package com.delarosa.teamdetail.data.server.source
 import com.delarosa.data.ResultData
 import com.delarosa.data.datasource.RemoteEventDataSource
 import com.delarosa.domain.Event
-import com.delarosa.prueba.data.callServices
-import com.delarosa.prueba.data.safeApiCall
+import com.delarosa.common.common.callServices
 import com.delarosa.teamdetail.data.mappers.toDomainEvent
+import com.delarosa.common.common.safeApiCall
 import com.delarosa.teamdetail.data.server.endpoints.EventService
 import com.delarosa.teamdetail.data.server.response.EventResponse
 import kotlinx.coroutines.Dispatchers

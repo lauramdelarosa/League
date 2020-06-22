@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_team"
+    app:startDestination="@id/TeamFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/TeamFragment"
+        android:label="Team"
+        android:name="com.delarosa.team.team.TeamFragment"
+        tools:layout="@layout/fragment_team">
+
+        <argument
+            android:name="league_code"
+            app:argType="string" />
+        <deepLink app:uri="delarosa://team/{league_code}"/>
+    </fragment>
+
+
+</navigation>

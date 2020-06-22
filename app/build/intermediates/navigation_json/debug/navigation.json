@@ -1,0 +1,10 @@
+[
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [
+      "nav_graph_league",
+      "nav_graph_team"
+    ],
+    "deepLinks": []
+  }
+]

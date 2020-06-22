@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Prueba</string>
-    <string name="welcome_choose_a_league">Welcome, choose a league</string>
-    <string name="choose_team">Choose a team</string>
+
     <string name="vs" translatable="false">VS</string>
     <string name="upcoming_events">Upcoming events</string>
 </resources>

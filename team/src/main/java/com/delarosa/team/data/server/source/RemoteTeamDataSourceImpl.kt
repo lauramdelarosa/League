@@ -1,11 +1,11 @@
 package com.delarosa.team.data.server.source
 
+import com.delarosa.common.common.callServices
+import com.delarosa.common.common.safeApiCall
 import com.delarosa.data.ResultData
 import com.delarosa.data.datasource.RemoteTeamDataSource
 import com.delarosa.domain.Team
-import com.delarosa.team.data.callServices
 import com.delarosa.team.data.mappers.toDomainLeague
-import com.delarosa.team.data.safeApiCall
 import com.delarosa.team.data.server.endpoints.TeamService
 import com.delarosa.team.data.server.response.TeamResponse
 import kotlinx.coroutines.Dispatchers

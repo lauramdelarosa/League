@@ -1,6 +1,6 @@
 package com.delarosa.teamdetail.data.server.endpoints
 
-import com.delarosa.prueba.data.server.response.EventResponse
+import com.delarosa.teamdetail.data.server.response.EventResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

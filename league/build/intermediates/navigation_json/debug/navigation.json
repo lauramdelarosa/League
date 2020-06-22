@@ -1,0 +1,33 @@
+[
+  {
+    "name": "nav_graph_league",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "delarosa"
+        ],
+        "host": "leagues",
+        "port": -1,
+        "path": "/",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mSourceFile": {
+              "path": "/Users/lauradelarosa/Desktop/android/Leagues/league/src/main/res/navigation/nav_graph_league.xml"
+            },
+            "mDescription": "nav_graph_league"
+          },
+          "mSourcePosition": {
+            "mStartLine": 14,
+            "mStartColumn": 8,
+            "mStartOffset": 548,
+            "mEndLine": 14,
+            "mEndColumn": 48,
+            "mEndOffset": 588
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  }
+]

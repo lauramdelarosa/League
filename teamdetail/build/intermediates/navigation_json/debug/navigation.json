@@ -1,0 +1,33 @@
+[
+  {
+    "name": "nav_graph_teamdetail",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "delarosa"
+        ],
+        "host": "teamdetail",
+        "port": -1,
+        "path": "/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mSourceFile": {
+              "path": "/Users/lauradelarosa/Desktop/android/Leagues/teamdetail/src/main/res/navigation/nav_graph_teamdetail.xml"
+            },
+            "mDescription": "nav_graph_teamdetail"
+          },
+          "mSourcePosition": {
+            "mStartLine": 17,
+            "mStartColumn": 8,
+            "mStartOffset": 674,
+            "mEndLine": 17,
+            "mEndColumn": 66,
+            "mEndOffset": 732
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  }
+]

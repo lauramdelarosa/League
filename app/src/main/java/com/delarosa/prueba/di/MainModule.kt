@@ -31,5 +31,4 @@ val dataModule = module {
 
 val appModule = module {
     single<CoroutineDispatcher> { Dispatchers.Main }
-
 }

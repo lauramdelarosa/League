@@ -1,0 +1,1 @@
+/Users/lauradelarosa/Desktop/android/Leagues/domain/build/classes/kotlin/main/com/delarosa/domain/Event.class:/Users/lauradelarosa/Desktop/android/Leagues/domain/build/classes/kotlin/main/com/delarosa/domain/League.class:/Users/lauradelarosa/Desktop/android/Leagues/domain/build/classes/kotlin/main/com/delarosa/domain/Team.class

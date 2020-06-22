@@ -5,7 +5,7 @@ import com.delarosa.data.datasource.*
 import com.delarosa.data.repository.EventRepository
 import com.delarosa.data.repository.LeagueRepository
 import com.delarosa.data.repository.TeamRepository
-import com.delarosa.league.data.RetrofitBuild
+import com.delarosa.common.common.RetrofitBuild
 import com.delarosa.league.data.database.PruebaDataBase
 import com.delarosa.league.data.database.source.RoomLeagueDataSource
 import com.delarosa.league.league.LeagueFragment

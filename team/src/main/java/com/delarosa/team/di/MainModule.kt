@@ -2,11 +2,11 @@ package com.delarosa.team.di
 
 import android.app.Application
 import com.delarosa.common.BuildConfig
+import com.delarosa.common.common.RetrofitBuild
 import com.delarosa.data.datasource.*
 import com.delarosa.data.repository.EventRepository
 import com.delarosa.data.repository.LeagueRepository
 import com.delarosa.data.repository.TeamRepository
-import com.delarosa.team.data.RetrofitBuild
 import com.delarosa.team.data.database.PruebaDataBase
 import com.delarosa.team.data.database.source.RoomTeamDataSource
 import com.delarosa.team.data.server.endpoints.TeamService

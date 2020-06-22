@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="colorDark">#3E3D3D</color>
+    <color name="colorGray">#DFDBDB</color>
+    <color name="colorGrayDark">#757575</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteGray">#F8F5F5</color>
+    <dimen name="text_base">@dimen/_14sdp</dimen>
+    <dimen name="text_big">@dimen/_18sdp</dimen>
+    <dimen name="text_big_dialog">@dimen/_20sdp</dimen>
+    <dimen name="text_bigger">@dimen/_24sdp</dimen>
+    <dimen name="text_biggest">@dimen/_58sdp</dimen>
+    <dimen name="text_medium_big">@dimen/_16sdp</dimen>
+    <dimen name="text_small">@dimen/_12sdp</dimen>
+    <dimen name="text_tiny">@dimen/_8sdp</dimen>
+    <string name="welcome_choose_a_league">Welcome, choose a league</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.DarkOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.TextAppearance">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.TextAppearanceBold">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

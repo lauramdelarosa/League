@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/leagueFragment"
+    android:id="@+id/nav_graph_league"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/leagueFragment"
+        android:name="com.delarosa.league.league.LeagueFragment"
+        android:label="league"
+        tools:layout="@layout/fragment_league">
+
+        <deepLink app:uri="delarosa://leagues"/>
+    </fragment>
+
+
+</navigation>

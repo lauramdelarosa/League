@@ -3,9 +3,9 @@ package com.delarosa.league.league
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.delarosa.common.common.basicDiffUtil
-import com.delarosa.common.common.inflate
-import com.delarosa.common.common.loadUrl
+import com.delarosa.common.utils.basicDiffUtil
+import com.delarosa.common.utils.inflate
+import com.delarosa.common.utils.loadUrl
 import com.delarosa.domain.League
 import com.delarosa.league.R
 

@@ -3,9 +3,9 @@ package com.delarosa.team.team
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.delarosa.common.common.basicDiffUtil
-import com.delarosa.common.common.inflate
-import com.delarosa.common.common.loadUrl
+import com.delarosa.common.utils.basicDiffUtil
+import com.delarosa.common.utils.inflate
+import com.delarosa.common.utils.loadUrl
 import com.delarosa.domain.Team
 import com.delarosa.team.R
 import kotlinx.android.synthetic.main.team_item.view.*

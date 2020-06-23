@@ -1,8 +1,9 @@
-package com.delarosa.common.common
+package com.delarosa.common.presentation
 
 import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
+import com.delarosa.common.utils.loadUrl
 
 
 @BindingAdapter("visible")

@@ -2,8 +2,8 @@ package com.delarosa.league.league
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.delarosa.common.common.Event
-import com.delarosa.common.common.ScopedViewModel
+import com.delarosa.common.presentation.Event
+import com.delarosa.common.presentation.ScopedViewModel
 import com.delarosa.data.ResultData
 import com.delarosa.domain.League
 import com.delarosa.usecases.GetLeagues

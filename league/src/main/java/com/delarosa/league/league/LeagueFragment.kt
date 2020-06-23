@@ -8,18 +8,18 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
-import com.delarosa.common.common.utils.navigateUriWithDefaultOptions
-import com.delarosa.league.R
+import com.delarosa.common.utils.getViewModel
+import com.delarosa.common.utils.navigateUriWithDefaultOptions
 import com.delarosa.league.databinding.FragmentLeagueBinding
+import com.delarosa.league.di.LeagueComponent
 import kotlinx.android.synthetic.main.fragment_league.*
-import org.koin.android.scope.currentScope
-import org.koin.android.viewmodel.ext.android.viewModel
 
 class LeagueFragment : Fragment() {
 
     private lateinit var adapter: LeagueAdapter
     private lateinit var dataBindingView: FragmentLeagueBinding
-    private val viewModelLeague: LeagueViewModel by currentScope.viewModel(this)
+    private lateinit var component: LeagueComponent
+    private val viewModelLeague by lazy { getViewModel { component.leagueViewModel } }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -51,3 +51,4 @@ class LeagueFragment : Fragment() {
 
 
 }
+

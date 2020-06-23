@@ -1,8 +1,6 @@
 package com.delarosa.usecases
 
-import com.delarosa.data.ResultData
 import com.delarosa.data.repository.TeamRepository
-import com.delarosa.testshared.mockedLeague
 import com.delarosa.testshared.mockedTeam
 import com.nhaarman.mockitokotlin2.whenever
 import kotlinx.coroutines.runBlocking

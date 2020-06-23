@@ -1,4 +1,4 @@
-package com.delarosa.common.common
+package com.delarosa.common.presentation
 
 open class Event<out T>(private val content: T) {
 

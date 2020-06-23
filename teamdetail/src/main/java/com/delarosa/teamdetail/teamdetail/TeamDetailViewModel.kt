@@ -2,7 +2,7 @@ package com.delarosa.teamdetail.teamdetail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.delarosa.common.common.ScopedViewModel
+import com.delarosa.common.presentation.ScopedViewModel
 import com.delarosa.data.ResultData
 import com.delarosa.domain.Event
 import com.delarosa.domain.Team

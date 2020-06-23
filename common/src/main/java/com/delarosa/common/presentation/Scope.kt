@@ -1,5 +1,4 @@
-package com.delarosa.common.common
-
+package com.delarosa.common.presentation
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

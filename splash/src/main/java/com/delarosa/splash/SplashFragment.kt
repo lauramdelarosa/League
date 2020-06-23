@@ -1,4 +1,4 @@
-package com.delarosa.splash.splash
+package com.delarosa.splash
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,8 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.delarosa.common.common.utils.navigateUriWithDefaultOptions
-import com.delarosa.splash.R
+import com.delarosa.common.utils.navigateUriWithDefaultOptions
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.delarosa.common.common.utils
+package com.delarosa.common.utils
 
 import android.net.Uri
 import androidx.navigation.NavController

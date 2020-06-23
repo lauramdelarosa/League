@@ -7,7 +7,6 @@ import com.delarosa.data.repository.LeagueRepository
 import com.delarosa.data.repository.TeamRepository
 import dagger.Module
 import dagger.Provides
-import javax.inject.Named
 
 @Module
 class DataModule {

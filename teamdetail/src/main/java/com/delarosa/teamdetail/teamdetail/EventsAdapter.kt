@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.delarosa.common.common.basicDiffUtil
+import com.delarosa.common.utils.basicDiffUtil
 import com.delarosa.domain.Event
 import com.delarosa.teamdetail.R
 import kotlinx.android.synthetic.main.event_item.view.*

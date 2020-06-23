@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.delarosa.splash.splash.SplashFragment"
+        android:name="com.delarosa.splash.SplashFragment"
         android:label="Splash"
         tools:layout="@layout/fragment_splash">
 

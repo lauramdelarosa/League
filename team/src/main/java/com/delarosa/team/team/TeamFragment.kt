@@ -8,22 +8,22 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
-import com.delarosa.common.common.utils.navigateUriWithDefaultOptions
-import com.delarosa.team.R
+import com.delarosa.common.utils.getViewModel
+import com.delarosa.common.utils.navigateUriWithDefaultOptions
 import com.delarosa.team.databinding.FragmentTeamBinding
+import com.delarosa.team.di.TeamComponent
+import com.delarosa.team.di.TeamModule
 import com.delarosa.team.team.TeamViewModel.Companion.LEAGUE_CODE
 import kotlinx.android.synthetic.main.fragment_team.*
-import org.koin.android.scope.currentScope
-import org.koin.android.viewmodel.ext.android.viewModel
-import org.koin.core.parameter.parametersOf
 
 class TeamFragment : Fragment() {
 
     private lateinit var adapter: TeamAdapter
     private lateinit var dataBindingView: FragmentTeamBinding
-    private val viewModelTeam: TeamViewModel by currentScope.viewModel(this) {
-        parametersOf(arguments?.getString(LEAGUE_CODE))
-    }
+
+    private lateinit var component: TeamComponent
+    private val viewModelTeam by lazy { getViewModel { component.teamViewModel } }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -37,10 +37,15 @@ class TeamFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         dataBindingView.lifecycleOwner = this.viewLifecycleOwner
+        activity?.let {
+            component = it.app.component.plus(TeamModule(intent.getString(LEAGUE_CODE, -1)))
+        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
         adapter = TeamAdapter(viewModelTeam::onItemClicked)
         recycler?.adapter = adapter
 

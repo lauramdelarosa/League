@@ -2,14 +2,11 @@ package com.delarosa.prueba.ui
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.delarosa.data.ResultData
 import com.delarosa.domain.Team
 import com.delarosa.prueba.ui.team.TeamViewModel
 import com.delarosa.testshared.mockedLeague
-import com.delarosa.testshared.mockedTeam
 import com.delarosa.usecases.GetTeams
 import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.whenever
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import org.junit.Before

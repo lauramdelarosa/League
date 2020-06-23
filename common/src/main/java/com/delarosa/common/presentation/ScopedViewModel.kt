@@ -1,4 +1,4 @@
-package com.delarosa.common.common
+package com.delarosa.common.presentation
 
 import androidx.annotation.CallSuper
 import androidx.lifecycle.ViewModel

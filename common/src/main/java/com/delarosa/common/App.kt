@@ -2,6 +2,7 @@ package com.delarosa.common
 
 import android.app.Application
 import com.delarosa.common.di.CommonComponent
+import com.delarosa.common.di.DaggerCommonComponent
 
 class App : Application() {
 

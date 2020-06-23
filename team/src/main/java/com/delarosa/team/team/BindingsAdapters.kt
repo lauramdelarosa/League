@@ -14,5 +14,3 @@ fun RecyclerView.setTeams(events: List<Team>?) {
     }
 }
 
-val Context.app: App
-    get() = applicationContext as App

@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
+import com.delarosa.common.utils.app
 import com.delarosa.common.utils.getViewModel
 import com.delarosa.common.utils.navigateUriWithDefaultOptions
 import com.delarosa.team.databinding.FragmentTeamBinding
@@ -38,7 +39,7 @@ class TeamFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         dataBindingView.lifecycleOwner = this.viewLifecycleOwner
         activity?.let {
-            component = it.app.component.plus(TeamModule(intent.getString(LEAGUE_CODE, -1)))
+            component = it.app.component.plusTeam(TeamModule(it.intent.getStringExtra(LEAGUE_CODE)))
         }
     }
 

@@ -9,9 +9,9 @@ import javax.inject.Singleton
 @Component(modules = [DataModule::class])
 interface CommonComponent {
 
-    fun plus(module: LeagueModule): LeagueComponent
-    fun plus(module: TeamModule): TeamComponent
-    fun plus(module: TeamDetailModule): TeamDetailComponent
+    fun plusLeague(module: LeagueModule): LeagueComponent
+    fun plusTeam(module: TeamModule): TeamComponent
+    fun plusDetail(module: TeamDetailModule): TeamDetailComponent
 
     @Component.Factory
     interface Factory {

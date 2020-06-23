@@ -7,21 +7,22 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.delarosa.common.common.startLink
+import com.delarosa.common.utils.app
+import com.delarosa.common.utils.getViewModel
+import com.delarosa.common.utils.startLink
 import com.delarosa.teamdetail.databinding.FragmentTeamDetailBinding
+import com.delarosa.teamdetail.di.TeamDetailComponent
+import com.delarosa.teamdetail.di.TeamDetailModule
 import com.delarosa.teamdetail.teamdetail.TeamDetailViewModel.Companion.DETAIL_CODE
 import kotlinx.android.synthetic.main.fragment_team_detail.*
 
-import org.koin.android.scope.currentScope
-import org.koin.android.viewmodel.ext.android.viewModel
-import org.koin.core.parameter.parametersOf
 
 class TeamDetailFragment : Fragment() {
 
     private lateinit var adapter: EventsAdapter
-    private val viewModelDetail: TeamDetailViewModel by currentScope.viewModel(this) {
-        parametersOf(arguments?.getString(DETAIL_CODE))
-    }
+    private lateinit var component: TeamDetailComponent
+    private val viewModelDetail by lazy { getViewModel { component.teamDetailViewModel } }
+
     private lateinit var dataBindingView: FragmentTeamDetailBinding
 
     override fun onCreateView(
@@ -36,6 +37,9 @@ class TeamDetailFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         dataBindingView.lifecycleOwner = this.viewLifecycleOwner
+        activity?.let {
+            component = it.app.component.plusDetail(TeamDetailModule(it.intent.getStringExtra(DETAIL_CODE)))
+        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

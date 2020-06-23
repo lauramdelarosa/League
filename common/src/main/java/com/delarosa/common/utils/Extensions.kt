@@ -1,6 +1,7 @@
 package com.delarosa.common.utils
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
@@ -15,6 +16,7 @@ import androidx.lifecycle.get
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.delarosa.common.App
 import kotlin.properties.Delegates
 
 
@@ -59,4 +61,4 @@ inline fun <reified T : ViewModel> Fragment.getViewModel(crossinline factory: ()
 
     return ViewModelProvider(this, vmFactory).get()
 }
-
+val Context.app: App get() = applicationContext as App
